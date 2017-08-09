@@ -38,7 +38,8 @@ verbose=0
 if [ `uname` = 'Linux' ] ; then
   packetdrill=/usr/bin/packetdrill
 else
-  packetdrill=/usr/local/bin/packetdrill
+#  packetdrill=/usr/local/bin/packetdrill
+  packetdrill=/home/hannes/devel/packetdrill/gtests/net/packetdrill/packetdrill
 fi
 delay=1
 timelimit=10
